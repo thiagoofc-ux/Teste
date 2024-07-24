@@ -278,22 +278,50 @@ div.side-menu ul li a {
     transition: 0.5s;
     z-index: 1;
 }
-
-div#almoço{
-    height: 100vh;
+div#cafe{
+    height: 150vh;
+}
+div#feijoada{
+    height: 120vh;
 }
 
-div#jantar{
-    height: 100vh;
-}
 div#churrascos{
-    height: 100vh;
+    height: 170vh;
+}
+.p-churrasco{
+    text-align: center;
+    font-family: sintony;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.308);
+    font-size: 20px;
+}
+.terceira-ul{
+    text-align: center;    
+    margin-top: 40px;
+}
+.terceira-li{
+    margin: auto;
+    display: inline-block;
+    padding: 10px;
+}
+.img-churrasco{
+    width: 200px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+.img-churrasco:hover{
+    width: 210px;
+    height: 410px;
+    transition: all 0.5s;
 }
 div#sobremesas{
-    height: 100vh;
+    height: 170vh;
+}
+div#equipe{
+    height: 150vh;
 }
 div#feedback{
-    height: 100vh;
+    height: 120vh;
     background-color: #2D0101;
     border-bottom: 1px solid #88785e;
 }
