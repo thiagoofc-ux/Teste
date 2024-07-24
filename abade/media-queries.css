@@ -44,8 +44,31 @@
         transition: all 0.5s;
     
     }
+    div#cafe{
+        height: 200vh;
+    }
+    div#feijoada{
+        height: 200vh;
+    }
+    div#churrascos{
+        height: 200vh;
+    }
+    .img-churrasco{
+        width: 150px;
+        height: 350px;
+    }
+    .img-churrasco:hover{
+        width: 160px;
+        height: 360px;
+    }
+    div#sobremesas{
+        height: 200vh;
+    }
+    div#equipe{
+        height: 200vh;
+    }
     div#feedback{
-        height: 80vh;
+        height: 90vh;
     }
 }
 @media screen and (min-width: 430px) and (max-width:600px) {
@@ -67,6 +90,35 @@
     ul.ul-feedback li{
         padding-bottom: 20px;
     }
+    div#cafe{
+        height: 150vh;
+    }
+    div#feijoada{
+        height: 160vh;
+    }
+    div#churrascos{
+        height: 160vh;
+    }
+    .img-churrasco{
+        width: 180px;
+        height: 380px;
+    }
+    .img-churrasco:hover{
+        width: 190px;
+        height: 390px;
+    }
+    div#sobremesas{
+        height: 160vh;
+    }
+    div#equipe{
+        height: 160vh;
+    }
+    div#feedback{
+        height: 90vh;
+    }
+    div#contato{
+        height: 20vh;
+    }
 }
 @media screen and (min-width: 600px) and (max-width:768px) {
     .segunda-li{
@@ -87,12 +139,40 @@
         box-shadow: 0px 0px 5px black;
     
     }
-    
+    .terceira-li{
+        padding: 5px 5px;
+    }
     div .primeiras-imgs:hover{
         width: 195px;
         height: 370px;
         transition: all 0.5s;
     
+    }
+    div#cafe{
+        height: 100vh;
+    }
+    div#feijoada{
+        height: 100vh;
+    }
+    div#churrascos{
+        height: 100vh;
+    }
+    .img-churrasco{
+        width: 180px;
+        height: 350px;
+    }
+    .img-churrasco:hover{
+        width: 195px;
+        height: 370px;
+    }
+    div#sobremesas{
+        height: 100vh;
+    }
+    div#equipe{
+        height: 100vh;
+    }
+    div#feedback{
+        height: 90vh;
     }
     div#feedback{
         height: 90vh;
@@ -127,11 +207,42 @@
         width: 60%;
         height: 270px;
     }
-    img.primeira-img{
-        height: 270px;
+    img.primeiras-imgs{
+        width: 230px;
+        height: 430px;
+    }
+    img.primeiras-imgs:hover{
+        width: 240px;
+        height: 440px;
     }
     .evento{
         width: 35%;
+    }
+    div#cafe{
+        height: 120vh;
+    }
+    div#feijoada{
+        height: 120vh;
+    }
+    div#churrascos{
+        height: 120vh;
+    }
+    .img-churrasco{
+        width: 230px;
+        height: 430px;
+    }
+    .img-churrasco:hover{
+        width: 240px;
+        height: 440px;
+    }
+    div#sobremesas{
+        height: 120vh;
+    }
+    div#equipe{
+        height: 120vh;
+    }
+    div#feedback{
+        height: 90vh;
     }
 }
 @media screen and (min-width:993px) and (max-width:1199px) {
@@ -141,6 +252,30 @@
     }
     img.primeira-img{
         height: 300px;
+    }
+    div#cafe{
+        height: 70vh;
+    }
+    div#feijoada{
+        height: 110vh;
+    }
+    div#churrascos{
+        height: 110vh;
+    }
+    div#sobremesas{
+        height: 110vh;
+    }
+    div#equipe{
+        height: 110vh;
+    }
+    div#feedback{
+        height: 60vh;
+    }
+    .numero{
+        font-size: 20px;
+    }
+    a.insta{
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -223,10 +358,10 @@
         height: 90vh;
     }
     i#whats{
-        margin-left: 46%;
+        margin-left: 43%;
     }
     #instagram{
-        margin-left: 46%;
+        margin-left: 43%;
         margin-top: 20px;
     }
     .numero{
@@ -234,6 +369,24 @@
     }
     a.insta{
         font-size: 20px;
+    }
+    div#cafe{
+        height: 70vh;
+    }
+    div#feijoada{
+        height: 70vh;
+    }
+    div#churrascos{
+        height: 70vh;
+    }
+    div#sobremesas{
+        height: 70vh;
+    }
+    div#equipe{
+        height: 70vh;
+    }
+    div#feedback{
+        height: 90vh;
     }
 }
 @media only screen and (orientation: landscape) and (max-width: 600px)  {
@@ -260,7 +413,7 @@
     
     }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 856px) {
     .primeira-ul {
         display: flex !important;
         justify-content: center;
