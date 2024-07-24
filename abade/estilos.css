@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+@font-face {
+    font-family: dollie;
+    src: url(fonts/DollieScript_PersonalUse.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.inicio{
+    /* background-image: linear-gradient(to bottom,#C9B28E,#9E703C); */
+    height: 115px;
+    width: 100vw;
+    box-shadow: 1px 1px 10px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+}
+h1{
+    display: block;
+    font-size: 50px;
+    padding: 10px;
+    font-family: dollie;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #8F1C14;
+}
+
+.primeira-ul{
+    display: none;
+    text-align: center;
+}
+.primeira-li{
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+}
+a{  
+    display: block;
+    text-decoration: none;
+    color: #2D0101;
+    gap: 10px;
+}
+a:hover{
+    padding: 0px;
+    border-radius: 5px;
+    background-color: #C9B28E;
+    transition: all .8s; 
+}
+
+.main-content{
+    background-image: linear-gradient(to left , transparent 10%, rgba(0, 0, 0, 0.705) 60%), url(imagens/pexels-vidalbalielojrfotografia-4005229.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 100px;
+}
+.primeiro-titulo{ 
+    text-align: center;
+    padding-top: 40px;
+    color: #940000;
+    font-family: Sintony;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+}
+div .texto{
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Sintony;
+    color: wheat;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.623);
+}
+.primeiro-p{
+    font-family: sintony;
+    color: white;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+
+}
+div.video{
+    background-color: black;
+    width: 80%;
+    height: 220px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+}
+
+.primeira-img{
+    border:3px solid #2D0101;
+    border-radius: 20px;
+    width: 99%;
+    height: 219px;
+}
+
+.evento{
+    display: block;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C9B28E;
+}
+
+.evento:hover{
+    background-color: #88785e;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+
+.frase-ca{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-family: Sintony;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#contato{
+    height: 130px;
+    background-color: #2D0101;
+    color: white;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.whatsapp{
+    padding: 10px;
+    background-color: #88785e;
+    color: #2D0101;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+}
+#whats{
+    float: left;
+}
+#instagram{
+    float: left;
+    margin-top: 20px;
+}
+
+.insta{
+    margin-top: 30px;
+    display: block;
+    float: left;;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #88785e;
+}
+
+
+.numero{
+    margin-top: 10px;
+    display: block;
+    float: left;;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #88785e;
+}
+.segunda-ul{
+    text-align: center;    
+    margin-top: 40px;
+}
+.segunda-li{
+    margin: auto;
+    display: inline-block;
+    padding: 10px;
+}
+img.primeiras-imgs {
+    width: 200px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+img.primeiras-imgs:hover{
+    width: 210px;
+    height: 410px;
+    transition: all 0.5s;
+
+}
+
+#cafe{
+    height: 120vh;
+}
+
+
+#burguer {
+    background-color: white;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#burguer:hover {
+    background-color: #940000;
+    color: black;
+    transition: all .5s;
+}
+
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #2D0101;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 2;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    display: block;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.side-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.side-menu ul li a:hover {
+    background-color: #88785e;
+    color: black;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+div#almoço{
+    height: 100vh;
+}
+
+div#jantar{
+    height: 100vh;
+}
+div#churrascos{
+    height: 100vh;
+}
+div#sobremesas{
+    height: 100vh;
+}
+div#feedback{
+    height: 100vh;
+    background-color: #2D0101;
+    border-bottom: 1px solid #88785e;
+}
+h2.h2-feedback{
+    font-family: Sintony;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    color: #88785e;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.315);
+}
+
+p.p-feedback{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    text-decoration: underline;
+    color: white;
+}
+ul.ul-feedback{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+ul.ul-feedback li{
+    padding: 10px;
+}
+
+ul.ul-feedback li img{
+    width: 100%;
+}

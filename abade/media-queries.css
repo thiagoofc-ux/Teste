@@ -1,0 +1,289 @@
+/*600 a 768
+768 a 992
+992 a 1200*/
+@media screen and (min-width:360px) and (max-width:429px){
+    h1{
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    p.texto{
+        width: 70%;
+        padding-bottom: 20px;
+    }
+    .primeira-ul{
+        font-size: 14px;
+    }
+    .texto{
+        font-size: 12px;
+        padding-bottom: 90px;
+    }
+    .evento{
+        font-size: 13px;
+    }
+    .whatsapp{
+        font-size: 13px;
+    }
+    #casamentos{
+        height: 150vh;
+    }
+
+    .main-content{
+        height: 110vh;
+    }
+    .segunda-li{
+        padding-left: 5px;
+    }
+
+    div .primeiras-imgs{
+        width: 150px;
+        height: 300px;
+    }
+    div .primeiras-imgs:hover{
+        width: 160px;
+        height: 310px;
+        transition: all 0.5s;
+    
+    }
+    div#feedback{
+        height: 80vh;
+    }
+}
+@media screen and (min-width: 430px) and (max-width:600px) {
+    p.texto{
+        font-size: 13px;
+    }
+    div .primeiras-imgs{
+        width: 180px;
+        height: 330px;
+    }
+    div .primeiras-imgs:hover{
+        width: 190px;
+        height: 340px;
+        transition: all 0.5s;
+    }
+    div#feedback{
+        height: 90vh;
+    }
+    ul.ul-feedback li{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width:768px) {
+    .segunda-li{
+        padding:5px 5px;
+    }
+    p.texto{
+        padding-top: 50px;
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .main-content{
+        height: 100vh;
+    }
+    div .primeiras-imgs{
+        width: 180px;
+        height: 350px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px black;
+    
+    }
+    
+    div .primeiras-imgs:hover{
+        width: 195px;
+        height: 370px;
+        transition: all 0.5s;
+    
+    }
+    div#feedback{
+        height: 90vh;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1199px) {
+    div.video{
+        width: 70%;
+        height: 300px;
+    }
+    video.primeira-img{
+        height: 300px;
+    }
+    a{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    p.texto{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    div.main-content{
+        height: 95vh;
+    }
+    div .primeira-img{
+        height: 215px;
+
+    }
+    .video{
+        width: 60%;
+        height: 270px;
+    }
+    img.primeira-img{
+        height: 270px;
+    }
+    .evento{
+        width: 35%;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1199px) {
+    div.video{
+        width: 70%;
+        height: 300px;
+    }
+    img.primeira-img{
+        height: 300px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .inicio{
+        height: 130px;
+    }
+    ul{
+        font-size: 18px;
+    }
+    .primeira-ul{
+        padding: 10px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    div .main-content{
+        margin-top: 130px;
+        height: 110vh;
+    }
+    h2{
+        font-size: 40px;
+        
+    }
+    p.texto{
+        font-size: 18px;
+    }
+    div .video{
+        margin-top: 70px;
+        width: 50%;
+        height: 400px;
+    }
+    video.primeira-img{
+        border:3px solid #2D0101;
+        border-radius: 20px;
+        width: 100%;
+        height: 400px;
+    }
+    .frase-ca{
+        font-size: 20px;
+    }
+    .evento{
+        display: block;
+        padding: 10px;
+        width: 20%;
+        margin: auto;
+        margin-top: 35px;
+        border-radius: 10px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #C9B28E;
+    }
+    
+    .evento:hover{
+        background-color: #88785e;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .numero{
+        float: left;
+    }
+
+    .segunda-li{
+        display: inline-block;
+    }
+    p.p-feedback{
+        font-size: 20px;
+    }
+    .ul-feedback{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ul-feedback li{
+        justify-content: center;
+    }
+    ul.ul-feedback li img{
+        padding: 30px;
+    }
+    div#feedback{
+        height: 90vh;
+    }
+    i#whats{
+        margin-left: 46%;
+    }
+    #instagram{
+        margin-left: 46%;
+        margin-top: 20px;
+    }
+    .numero{
+        font-size: 20px;
+    }
+    a.insta{
+        font-size: 20px;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 600px)  {
+    div.main-content{
+        height: 200vh;
+    }
+    div.texto{
+        margin-bottom: 90px;
+    }
+    .segunda-li{
+        padding: 5px;
+    }
+    div.primeiras-imgs{
+        width: 190px;
+        height: 360px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px black;
+    }
+    
+    div .primeiras-imgs:hover{
+        width: 195px;
+        height: 370px;
+        transition: all 0.5s;
+    
+    }
+}
+@media screen and (min-width: 850px) {
+    .primeira-ul {
+        display: flex !important;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .primeira-li {
+        margin: 0 5px;
+    }
+
+    #burguer {
+        display: none;
+    }
+
+    .side-menu,
+    .overlay {
+        display: none;
+    }
+    a.whatsapp{
+        margin: auto;
+        text-align: center;
+        width:50%;
+    }
+}
