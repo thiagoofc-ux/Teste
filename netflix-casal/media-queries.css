@@ -1,0 +1,162 @@
+ /* @media screen and (min-width:432px){
+    .netflix{
+        height: 55px;
+    }
+    .primeira-ul li{
+        font-size: 10px;
+    }
+    img.cenas{
+        height: 95px;
+    }
+    img.momentos{
+        height: 95px;
+    }
+    .terceira-sec{
+        height: 15vh;
+    } 
+} */
+
+/* 
+@media screen and (min-width: 745px) and (max-width: 768px){
+    .primeira-ul{
+        font-size: 15px;
+    }
+    .netflix{
+        height: 90px;
+        padding-right: 30px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .verde{
+        font-size: 15px;
+    }
+    .ano{
+        font-size: 15px;
+    }
+
+    .HD{
+        font-size: 15px;
+    }
+    .estrelas{
+        height: 15px;
+    }
+    .top{
+        font-size: 15px;
+        height: 50px;
+        width: 50px;
+    }
+    .tit{
+        font-size: 20px;
+    }
+    .texto{
+        width: 40%;
+        font-size: 15px;
+    }
+    .assistir{
+        font-size: 19px;
+        width: 100px;
+    }
+    .favorito{
+        font-size: 19px;
+        width: 120px;
+        margin-top: 35px;
+    }
+    .favorito::before{
+        font-size: 19px;
+    }
+    h2{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .cenas{
+        height: 180px;
+    }
+
+    .momentos{
+        height: 180px;
+    }
+
+  
+}
+
+
+@media screen and (min-width: 1200px){
+    .netflix{
+        padding-left: 60px;
+        height: 120px;
+    }
+    .primeira-ul{
+        font-size: 20px;
+        margin-left: 220px;
+    }
+    .um{
+        padding-left: 30px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .verde{
+        font-size: 20px;
+    }
+    .ano{
+        font-size: 20px;
+    }
+    .HD{
+        font-size: 20px;
+    }
+    .estrelas{
+        height: 20px;
+    }
+
+    .top{
+        width: 60px;
+        height: 60px;
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    .tit{
+        font-size: 20px;
+    }
+    .texto{
+        width: 30%;
+        font-size: 19px;
+    }
+    .assistir{
+        font-size: 20px;
+        height: 40px;
+        width: 140px;
+    }
+    .favorito{
+        font-size: 20px;
+        height: 40px;
+        width: 140px;
+    }
+    .favorito::before{
+        font-size: 17px;
+    }
+    .primeira-sec{
+        height: 80vh;
+        background-position: center center;
+        background-size: cover;
+    }
+    .terceira-sec{
+        height: 50vh;
+    }
+    h2{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .cenas{
+        height: 280px;
+    }
+    .momentos{
+        margin-bottom: 25px;
+        height: 280px;
+    }
+
+    
+}   
+ */
