@@ -1,6 +1,45 @@
 /*600 a 768
 768 a 992
 992 a 1200*/
+@media screen and (min-width:320px) and (max-width:359px){
+    .p-churrasco{
+        font-size: 17px;
+    }
+    div#cafe{
+        height: 80vh;
+    }
+    div#feijoada{
+        height: 110vh;
+    }
+    div#churrascos{
+        height: 110vh;
+    }
+    img.primeiras-imgs{
+        width: 130px;
+        height: 250px;
+    }
+    img.primeiras-imgs:hover{
+        width: 140px;
+        height: 260px;
+    }  
+    .img-churrasco{
+        width: 130px;
+        height: 250px;
+    }
+    .img-churrasco:hover{
+        width: 140px;
+        height: 260px;
+    }
+    div#sobremesas{
+        height: 110vh;
+    }
+    div#equipe{
+        height: 110vh;
+    }
+    div#feedback{
+        height: 70vh;
+    }
+}
 @media screen and (min-width:360px) and (max-width:429px){
     h1{
         font-size: 50px;
@@ -45,13 +84,13 @@
     
     }
     div#cafe{
-        height: 200vh;
+        height: 150vh;
     }
     div#feijoada{
-        height: 200vh;
+        height: 150vh;
     }
     div#churrascos{
-        height: 200vh;
+        height: 150vh;
     }
     .img-churrasco{
         width: 150px;
@@ -62,13 +101,13 @@
         height: 360px;
     }
     div#sobremesas{
-        height: 200vh;
+        height: 150vh;
     }
     div#equipe{
-        height: 200vh;
+        height: 150vh;
     }
     div#feedback{
-        height: 90vh;
+        height: 70vh;
     }
 }
 @media screen and (min-width: 430px) and (max-width:600px) {
@@ -91,30 +130,30 @@
         padding-bottom: 20px;
     }
     div#cafe{
-        height: 150vh;
+        height: 100vh;
     }
     div#feijoada{
-        height: 160vh;
+        height: 140vh;
     }
     div#churrascos{
-        height: 160vh;
+        height: 140vh;
     }
     .img-churrasco{
         width: 180px;
-        height: 380px;
+        height: 330px;
     }
     .img-churrasco:hover{
         width: 190px;
-        height: 390px;
+        height: 340px;
     }
     div#sobremesas{
-        height: 160vh;
+        height: 140vh;
     }
     div#equipe{
-        height: 160vh;
+        height: 140vh;
     }
     div#feedback{
-        height: 90vh;
+        height: 100vh;
     }
     div#contato{
         height: 20vh;
