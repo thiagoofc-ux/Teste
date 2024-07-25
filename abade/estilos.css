@@ -213,72 +213,6 @@ img.primeiras-imgs:hover{
     height: 120vh;
 }
 
-
-#burguer {
-    background-color: white;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 5px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-#burguer:hover {
-    background-color: #940000;
-    color: black;
-    transition: all .5s;
-}
-
-.side-menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #2D0101;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    z-index: 2;
-}
-
-.side-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.side-menu ul li {
-    display: block;
-    padding-bottom: 30px;
-    text-align: left;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-div.side-menu ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    display: block;
-}
-
-.side-menu ul li a:hover {
-    background-color: #88785e;
-    color: black;
-}
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    overflow-x: hidden;
-    transition: 0.5s;
-    z-index: 1;
-}
 div#cafe{
     height: 150vh;
 }
@@ -357,3 +291,75 @@ ul.ul-feedback li{
 ul.ul-feedback li img{
     width: 100%;
 }
+
+/*SIDE MENU*/
+
+
+#burguer {
+    background-color: white;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#burguer:hover {
+    background-color: #940000;
+    color: black;
+    transition: all .5s;
+}
+
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #2D0101;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 2;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    display: block;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.side-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.side-menu ul li a:hover {
+    background-color: #88785e;
+    color: black;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+/*MODAL DAS IMAGENS*/
+

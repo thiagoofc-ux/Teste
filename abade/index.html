@@ -94,7 +94,7 @@
             <li class="terceira-li"><img class="img-churrasco" src="imagens/churrascos/4.jpg" alt=""></li>
             <li class="terceira-li"><img class="img-churrasco" src="imagens/churrascos/6.jpg" alt=""></li>
             <li class="terceira-li"><img class="img-churrasco" src="imagens/churrascos/7.jpg" alt=""></li>
-        
+
         </ul>
     </div>
     <div id="sobremesas">
@@ -106,7 +106,7 @@
             <li class="terceira-li"><img class="img-churrasco" src="imagens/sobremesas/3.jpg" alt=""></li>
             <li class="terceira-li"><img class="img-churrasco" src="imagens/sobremesas/2.jpg" alt=""></li>
             <li class="terceira-li"><img class="img-churrasco" src="imagens/sobremesas/1.jpg" alt=""></li>
-        
+
         </ul>
     </div>
     <div id="equipe">
@@ -170,6 +170,19 @@
 
         window.onload = mudouTamanho;
         window.onresize = mudouTamanho;
+
+        /*MODAL*/
+        function openModal(imagePath) {
+            var modal = document.getElementById('myModal');
+            var modalImg = document.getElementById('modalImg');
+            modal.style.display = 'block';
+            modalImg.src = imagePath;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById('myModal');
+            modal.style.display = 'none';
+        }
     </script>
 </body>
 

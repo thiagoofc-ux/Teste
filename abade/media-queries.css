@@ -1,7 +1,7 @@
 /*600 a 768
 768 a 992
 992 a 1200*/
-@media screen and (min-width:320px) and (max-width:359px){
+@media screen and (min-width:320px) and (max-width:360px){
     .p-churrasco{
         font-size: 17px;
     }
@@ -40,7 +40,52 @@
         height: 70vh;
     }
 }
-@media screen and (min-width:360px) and (max-width:429px){
+@media screen and (min-width:360px) and (max-width:399px){
+    .segunda-li{
+        padding: 5px 5px;
+    }
+    .terceira-li{
+        padding: 5px 5px;
+    }
+    img.primeiras-imgs{
+        width: 160px;
+        height: 300px;
+    }
+    img.primeiras-imgs:hover{
+        width: 170px;
+        height: 310px;
+    }  
+    .img-churrasco{
+        width: 160px;
+        height: 300px;
+    }
+    .img-churrasco:hover{
+        width: 170px;
+        height: 310px;
+    }
+    .main-content{
+        height: 120vh;
+    }
+    div#cafe{
+        height: 110vh;
+    }
+    div#feijoada{
+        height: 160vh;
+    }
+    div#churrascos{
+        height: 160vh;
+    }
+    div#sobremesas{
+        height: 160vh;
+    }
+    div#equipe{
+        height: 160vh;
+    }
+    div#feedback{
+        height: 90vh;
+    }
+}
+@media screen and (min-width:400px) and (max-width:429px){
     h1{
         font-size: 50px;
         margin-bottom: 5px;
@@ -74,40 +119,40 @@
     }
 
     div .primeiras-imgs{
-        width: 150px;
-        height: 300px;
+        width: 170px;
+        height: 320px;
     }
     div .primeiras-imgs:hover{
-        width: 160px;
-        height: 310px;
+        width: 180px;
+        height: 330px;
         transition: all 0.5s;
     
     }
     div#cafe{
-        height: 150vh;
+        height: 95vh;
     }
     div#feijoada{
-        height: 150vh;
+        height: 130vh;
     }
     div#churrascos{
-        height: 150vh;
+        height: 130vh;
     }
     .img-churrasco{
-        width: 150px;
-        height: 350px;
+        width: 170px;
+        height: 320px;
     }
     .img-churrasco:hover{
-        width: 160px;
-        height: 360px;
+        width: 180px;
+        height: 330px;
     }
     div#sobremesas{
-        height: 150vh;
+        height: 130vh;
     }
     div#equipe{
         height: 150vh;
     }
     div#feedback{
-        height: 70vh;
+        height: 80vh;
     }
 }
 @media screen and (min-width: 430px) and (max-width:600px) {
